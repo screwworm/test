@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mujoco>
+    <asset>
+        <mesh file="luosidao.STL" name="luosidao_mesh" scale="0.001 0.001 0.001"/>
+    </asset>
+
+    <worldbody>
+        <body name="luosidao_main_body" pos="0 0 0">
+            <geom type="mesh" mesh="luosidao_mesh" rgba="0.6 0.4 0.2 1"/>
+        </body>
+    </worldbody>
+</mujoco>
